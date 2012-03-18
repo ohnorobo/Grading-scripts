@@ -1,0 +1,9 @@
+calcAllGrades 
+takes the assignment number as an argument and parses through those directories. It returns a grade for each file and a total grade for the pair
+
+createGradingFiles does 2 things:
+createGradingFiles assn# make
+    copies submitted work into a new -graded directory for each pair and removed the .svn files
+createGradingFiles assn# commit
+    adds and commits finished grading
+    
